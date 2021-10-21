@@ -1,0 +1,48 @@
+.All {
+    font-family: Arial, Helvetica, sans-serif;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: "a b"
+                         "c d";
+    grid-gap: 1em;
+    width: 200px;
+    height: 200px;
+}
+
+#first{
+    grid-area: a;
+    line-height: 1px;
+}
+
+.Sentence {
+    padding-right: 40px;
+}
+
+#second{
+    grid-area: b;
+}
+
+
+#third{
+    grid-area: c;
+}
+
+#fourth {
+    grid-area: d;
+}
+
+.color{
+    font-size: 35px;
+    padding-bottom: 70px;
+}
+
+.grid {
+    width: 200px;
+    height: 250px;
+    border-style: solid;
+    border-width: 1px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0.5em;
+}
